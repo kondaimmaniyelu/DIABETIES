@@ -7,7 +7,7 @@
 import pickle
 import streamlit as st
 import numpy as np
-pickle_in=open('C:/Machine Learning Apps/DIABETIS APP/SUGAR.pkl','rb')
+pickle_in=open('SUGAR.pkl','rb')
 model=pickle.load(pickle_in)
 
 def main():
