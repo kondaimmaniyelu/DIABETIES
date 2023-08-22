@@ -32,7 +32,7 @@ def main():
         st.success('RISK IS {}'.format(result))
 
 def prediction(preg,glucose,bp,st,i,bmi,dpf,age):
-    s=clf.predict([[preg,glucose,bp,st,i,bmi,dpf,age]])
+    s=model.predict([[preg,glucose,bp,st,i,bmi,dpf,age]])
     if s==1:
         p='HAD DIABETIES'
     else:
